@@ -1,0 +1,121 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.25em;
+}
+h4 {
+    font-size: 1.15em;
+}
+p {
+  margin: 0.5em 0;
+}
+
+body {
+    width: 100%;
+}
+
+.svg-container {
+   
+    position: absolute;
+    top: 75px;
+    width: 585px;
+    right: 0px;
+    background-color: #ffc017;
+}
+
+.container {
+   background-color: #ffc017;
+   height: 100%;
+}
+
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+
+li {
+    padding: 5px;
+}
+
+.container2 {
+    background-color: #ffc017;
+    
+}
+
+nav span:nth-child(5) {
+    background-color: #191919;
+    color: white;
+    border-radius: 25%;
+}
+
+.paragrafetto {
+    background-color: #191919;
+    display: inline;
+    color: white;
+    border-radius: 25%;
+    padding: 2px;
+    margin-left: 50px;
+}
+
+/* .container3 {
+    background-color: #ffc017;
+    display: flex;
+    border-bottom: 1px solid black;
+    position: fixed;
+    z-index: 3;
+} */
+
+.container3 {
+    background-color: #ffc017;
+    display: flex;
+}
+
+#titolone {
+    font-size: 3em;
+}
+
+
+.container5 {
+    float: right;
+    background-color: #ffc017;
+}
+
+
+.container-1 {
+    display: flex;
+}
+.avatar {
+
+    width: 20px;
+    height: 20px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-between; /*non li distanzia*/
+    flex-direction: column;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.div2 .immagine {
+    width: 300px;
+    height: 150px;
+}
